@@ -1,0 +1,99 @@
+body
+{ 
+	font-family: arial, sans-serif;
+	font-size:  18px;
+	height: 100%;
+	margin: 0px;
+	justify-content: center;
+}
+
+header
+{ 
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+	padding: 20px;
+}
+
+div
+{
+	display: flex;
+	justify-content: center;
+	padding-right: 60px;
+	padding-left: 60px;
+	flex-direction: row;
+	align-content: space-between;
+}
+
+#conteneur
+{ 	display: flex;
+	justify-content: center;
+	padding right: 100%;
+}
+
+#recherche
+{
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+}
+
+#boutons
+{	display: flex;
+	justify-content: center;
+	font-size: 12px;
+}
+
+footer
+{	background-color: #E1E1E1;
+	padding: 10px; 
+	position: absolute; 
+	bottom: 0; left: 0; right: 0;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 12px;
+}
+
+#apropos
+{
+	margin-right: 2px;
+}
+
+#recherche
+input
+{
+	border-radius: 15px;
+	padding: 10px;
+	width: 250px;
+	height: 20px;
+}
+
+input
+{
+	font-family: 'arial';
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#all
+{
+	margin: 200px; 
+}
+
+p
+{
+	padding-left: 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 14px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+ul
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
